@@ -48,13 +48,13 @@ dependencies {
 //    api 'com.google.firebase:firebase-bom:32.7.0'
 //    api 'com.google.firebase:firebase-analytics'
     // appsflyer
-    api 'com.appsflyer:af-android-sdk:6.12.5'
+    implementation 'com.appsflyer:af-android-sdk:6.12.5'
     // Google Location Services
-    api 'com.google.android.gms:play-services-location:21.0.1'
-    api 'pub.devrel:easypermissions:3.0.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'pub.devrel:easypermissions:3.0.0'
     // 网络
-    api 'com.squareup.okhttp3:okhttp:4.12.0'
-    api 'dnsjava:dnsjava:3.4.2'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'dnsjava:dnsjava:3.4.2'
 
 
 }
