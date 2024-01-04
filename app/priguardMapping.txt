@@ -1,0 +1,89 @@
+# compiler: R8
+# compiler_version: 4.0.52
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: 8466f28
+# pg_map_hash: SHA-256 8466f2842943b75962fbafa4cd42dabbc7f7a0c02405d11b1d0acd9b51403194
+com.safetyprotection.App -> com.safetyprotection.App:
+    23:23:void <init>() -> <init>
+    33:33:android.content.Context getContext() -> getContext
+    29:29:com.safetyprotection.App getInstants() -> getInstants
+    38:54:void onCreate() -> onCreate
+com.safetyprotection.AppFlyer.AppsFlyerBean -> com.safetyprotection.AppFlyer.AppsFlyerBean:
+    8:11:void <init>() -> <init>
+    35:38:java.lang.String getAf_message() -> getAf_message
+    23:26:java.lang.String getAf_status() -> getAf_status
+    47:47:boolean isIs_first_launch() -> isIs_first_launch
+    42:44:void setAf_message(java.lang.String) -> setAf_message
+    30:32:void setAf_status(java.lang.String) -> setAf_status
+    51:53:void setIs_first_launch(boolean) -> setIs_first_launch
+    57:57:java.lang.String toString() -> toString
+com.safetyprotection.BaseActivity -> com.safetyprotection.BaseActivity:
+    38:38:void <clinit>() -> <clinit>
+    31:31:void <init>() -> <init>
+    110:121:void cameraTask() -> cameraTask
+    87:98:void customTask() -> customTask
+    128:139:void locationAndContactsTask() -> locationAndContactsTask
+    151:163:void locationTask() -> locationTask
+    48:54:void onCreate(android.os.Bundle) -> onCreate
+    172:179:void onPermissionsDenied(int,java.util.List) -> onPermissionsDenied
+    167:168:void onPermissionsGranted(int,java.util.List) -> onPermissionsGranted
+    183:184:void onRationaleAccepted(int) -> onRationaleAccepted
+    188:189:void onRationaleDenied(int) -> onRationaleDenied
+    73:76:void onRequestPermissionsResult(int,java.lang.String[],int[]) -> onRequestPermissionsResult
+com.safetyprotection.EasyPermissions.EasyPermissionsManage -> com.safetyprotection.EasyPermissions.EasyPermissionsManage:
+    15:15:void <init>() -> <init>
+    88:88:int getCustomPerm() -> getCustomPerm
+    84:84:java.lang.String[] getCustomPermissions() -> getCustomPermissions
+    48:51:com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletage getEasyPermissionsManageDeletage() -> getEasyPermissionsManageDeletage
+    32:35:com.safetyprotection.EasyPermissions.EasyPermissionsManage getInstance() -> getInstance
+    92:92:boolean hasCameraPermission(android.content.Context) -> hasCameraPermission
+    96:96:boolean hasCustomPermission(android.content.Context,java.lang.String[]) -> hasCustomPermission
+    100:100:boolean hasLocationAndContactsPermissions(android.content.Context) -> hasLocationAndContactsPermissions
+    104:104:boolean hasLocationPermissions(android.content.Context) -> hasLocationPermissions
+com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletage -> com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletage:
+    15:15:void <init>() -> <init>
+    137:137:com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletage Mycreate() -> Mycreate
+    124:124:com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletage create() -> create
+com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletageImpl -> com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletageImpl:
+    22:22:void <clinit>() -> <clinit>
+    18:18:void <init>() -> <init>
+    42:42:int getCustomPerm() -> getCustomPerm
+    37:37:java.lang.String[] getCustomPermissions() -> getCustomPermissions
+    47:47:boolean hasCameraPermission(android.content.Context) -> hasCameraPermission
+    52:52:boolean hasCustomPermission(android.content.Context,java.lang.String[]) -> hasCustomPermission
+    57:57:boolean hasLocationAndContactsPermissions(android.content.Context) -> hasLocationAndContactsPermissions
+    62:62:boolean hasLocationPermissions(android.content.Context) -> hasLocationPermissions
+com.safetyprotection.SafetyProtectionManageD.AppsFlyerDelegateImpl -> com.safetyprotection.SafetyProtectionManageD.AppsFlyerDelegateImpl:
+    20:20:void <init>() -> <init>
+com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManage -> com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManage:
+    38:38:void <init>() -> <init>
+    61:68:com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManage getInstance() -> getInstance
+    52:55:com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate getSafetyProtectionManageDelegate() -> getSafetyProtectionManageDelegate
+    123:123:boolean isIslocationTask() -> isIslocationTask
+com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate -> com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate:
+    17:17:void <init>() -> <init>
+    52:52:com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate Mycreate() -> Mycreate
+    39:39:com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate create() -> create
+com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegateImpl -> com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegateImpl:
+    15:15:void <init>() -> <init>
+com.safetyprotection.SafetyProtectionManageD.locationTaskDelegateImplV2 -> com.safetyprotection.SafetyProtectionManageD.locationTaskDelegateImplV2:
+    16:17:void <init>() -> <init>
+    27:27:boolean isIslocationTask() -> isIslocationTask
+com.safetyprotection.SpUtil.Delegate.SpUtilDelegate -> com.safetyprotection.SpUtil.Delegate.SpUtilDelegate:
+    19:19:void <init>() -> <init>
+    149:149:com.safetyprotection.SpUtil.Delegate.SpUtilDelegate Mycreate() -> Mycreate
+    136:136:com.safetyprotection.SpUtil.Delegate.SpUtilDelegate create() -> create
+com.safetyprotection.SpUtil.DelegateImp.SpUtilDelegateImpl -> com.safetyprotection.SpUtil.DelegateImp.SpUtilDelegateImpl:
+    20:20:void <init>() -> <init>
+    29:32:android.content.SharedPreferences checkoutSP(android.content.Context) -> checkoutSP
+    55:56:boolean getBoolean(android.content.Context,java.lang.String,boolean) -> getBoolean
+    43:44:java.lang.String getString(android.content.Context,java.lang.String,java.lang.String) -> getString
+    49:51:void putBoolean(android.content.Context,java.lang.String,boolean) -> putBoolean
+    37:39:void putString(android.content.Context,java.lang.String,java.lang.String) -> putString
+com.safetyprotection.SpUtil.SpUtil -> com.safetyprotection.SpUtil.SpUtil:
+    95:95:boolean getBoolean(android.content.Context,java.lang.String,boolean) -> getBoolean
+    65:65:java.lang.String getString(android.content.Context,java.lang.String,java.lang.String) -> getString
+    32:35:com.safetyprotection.SpUtil.Delegate.SpUtilDelegate getmSpUtilDelegate() -> getmSpUtilDelegate
+    80:81:void putBoolean(android.content.Context,java.lang.String,boolean) -> putBoolean
+    50:51:void putString(android.content.Context,java.lang.String,java.lang.String) -> putString

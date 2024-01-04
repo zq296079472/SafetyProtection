@@ -32,8 +32,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 
@@ -44,9 +44,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    // firebase
-    api 'com.google.firebase:firebase-bom:32.7.0'
-    api 'com.google.firebase:firebase-analytics'
+//    // firebase
+//    api 'com.google.firebase:firebase-bom:32.7.0'
+//    api 'com.google.firebase:firebase-analytics'
     // appsflyer
     api 'com.appsflyer:af-android-sdk:6.12.5'
     // Google Location Services
