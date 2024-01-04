@@ -19,7 +19,19 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            //开启混淆
+            isMinifyEnabled = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+
+        debug {
+            //开启混淆
+            isMinifyEnabled = true
+            //压缩优化
+            isZipAlignEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
