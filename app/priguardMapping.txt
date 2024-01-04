@@ -1,15 +1,17 @@
 # compiler: R8
-# compiler_version: 4.0.52
+# compiler_version: 8.1.68
 # common_typos_disable
-# {"id":"com.android.tools.r8.mapping","version":"2.1"}
-# pg_map_id: 8466f28
-# pg_map_hash: SHA-256 8466f2842943b75962fbafa4cd42dabbc7f7a0c02405d11b1d0acd9b51403194
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 811413d
+# pg_map_hash: SHA-256 811413db0062eb5736c105da50967d2948b3c5881182493115e4496660e015be
 com.safetyprotection.App -> com.safetyprotection.App:
+# {"id":"sourceFile","fileName":"App.java"}
     23:23:void <init>() -> <init>
     33:33:android.content.Context getContext() -> getContext
     29:29:com.safetyprotection.App getInstants() -> getInstants
     38:54:void onCreate() -> onCreate
 com.safetyprotection.AppFlyer.AppsFlyerBean -> com.safetyprotection.AppFlyer.AppsFlyerBean:
+# {"id":"sourceFile","fileName":"AppsFlyerBean.java"}
     8:11:void <init>() -> <init>
     35:38:java.lang.String getAf_message() -> getAf_message
     23:26:java.lang.String getAf_status() -> getAf_status
@@ -19,6 +21,7 @@ com.safetyprotection.AppFlyer.AppsFlyerBean -> com.safetyprotection.AppFlyer.App
     51:53:void setIs_first_launch(boolean) -> setIs_first_launch
     57:57:java.lang.String toString() -> toString
 com.safetyprotection.BaseActivity -> com.safetyprotection.BaseActivity:
+# {"id":"sourceFile","fileName":"BaseActivity.java"}
     38:38:void <clinit>() -> <clinit>
     31:31:void <init>() -> <init>
     110:121:void cameraTask() -> cameraTask
@@ -32,6 +35,7 @@ com.safetyprotection.BaseActivity -> com.safetyprotection.BaseActivity:
     188:189:void onRationaleDenied(int) -> onRationaleDenied
     73:76:void onRequestPermissionsResult(int,java.lang.String[],int[]) -> onRequestPermissionsResult
 com.safetyprotection.EasyPermissions.EasyPermissionsManage -> com.safetyprotection.EasyPermissions.EasyPermissionsManage:
+# {"id":"sourceFile","fileName":"EasyPermissionsManage.java"}
     15:15:void <init>() -> <init>
     88:88:int getCustomPerm() -> getCustomPerm
     84:84:java.lang.String[] getCustomPermissions() -> getCustomPermissions
@@ -42,10 +46,12 @@ com.safetyprotection.EasyPermissions.EasyPermissionsManage -> com.safetyprotecti
     100:100:boolean hasLocationAndContactsPermissions(android.content.Context) -> hasLocationAndContactsPermissions
     104:104:boolean hasLocationPermissions(android.content.Context) -> hasLocationPermissions
 com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletage -> com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletage:
+# {"id":"sourceFile","fileName":"EasyPermissionsManageDeletage.java"}
     15:15:void <init>() -> <init>
     137:137:com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletage Mycreate() -> Mycreate
     124:124:com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletage create() -> create
 com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletageImpl -> com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletageImpl:
+# {"id":"sourceFile","fileName":"EasyPermissionsManageDeletageImpl.java"}
     22:22:void <clinit>() -> <clinit>
     18:18:void <init>() -> <init>
     42:42:int getCustomPerm() -> getCustomPerm
@@ -55,26 +61,35 @@ com.safetyprotection.EasyPermissions.EasyPermissionsManageDeletageImpl -> com.sa
     57:57:boolean hasLocationAndContactsPermissions(android.content.Context) -> hasLocationAndContactsPermissions
     62:62:boolean hasLocationPermissions(android.content.Context) -> hasLocationPermissions
 com.safetyprotection.SafetyProtectionManageD.AppsFlyerDelegateImpl -> com.safetyprotection.SafetyProtectionManageD.AppsFlyerDelegateImpl:
+# {"id":"sourceFile","fileName":"AppsFlyerDelegateImpl.java"}
     20:20:void <init>() -> <init>
 com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManage -> com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManage:
+# {"id":"sourceFile","fileName":"SafetyProtectionManage.java"}
     38:38:void <init>() -> <init>
     61:68:com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManage getInstance() -> getInstance
     52:55:com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate getSafetyProtectionManageDelegate() -> getSafetyProtectionManageDelegate
     123:123:boolean isIslocationTask() -> isIslocationTask
 com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate -> com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate:
+# {"id":"sourceFile","fileName":"SafetyProtectionManageDelegate.java"}
     17:17:void <init>() -> <init>
     52:52:com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate Mycreate() -> Mycreate
     39:39:com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegate create() -> create
 com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegateImpl -> com.safetyprotection.SafetyProtectionManageD.SafetyProtectionManageDelegateImpl:
+# {"id":"sourceFile","fileName":"SafetyProtectionManageDelegateImpl.java"}
     15:15:void <init>() -> <init>
 com.safetyprotection.SafetyProtectionManageD.locationTaskDelegateImplV2 -> com.safetyprotection.SafetyProtectionManageD.locationTaskDelegateImplV2:
+# {"id":"sourceFile","fileName":"locationTaskDelegateImplV2.java"}
     16:17:void <init>() -> <init>
     27:27:boolean isIslocationTask() -> isIslocationTask
+com.safetyprotection.SafetyProtectionManageD.locationTaskDelegateV2 -> com.safetyprotection.SafetyProtectionManageD.locationTaskDelegateV2:
+# {"id":"sourceFile","fileName":"locationTaskDelegateV2.java"}
 com.safetyprotection.SpUtil.Delegate.SpUtilDelegate -> com.safetyprotection.SpUtil.Delegate.SpUtilDelegate:
+# {"id":"sourceFile","fileName":"SpUtilDelegate.java"}
     19:19:void <init>() -> <init>
     149:149:com.safetyprotection.SpUtil.Delegate.SpUtilDelegate Mycreate() -> Mycreate
     136:136:com.safetyprotection.SpUtil.Delegate.SpUtilDelegate create() -> create
 com.safetyprotection.SpUtil.DelegateImp.SpUtilDelegateImpl -> com.safetyprotection.SpUtil.DelegateImp.SpUtilDelegateImpl:
+# {"id":"sourceFile","fileName":"SpUtilDelegateImpl.java"}
     20:20:void <init>() -> <init>
     29:32:android.content.SharedPreferences checkoutSP(android.content.Context) -> checkoutSP
     55:56:boolean getBoolean(android.content.Context,java.lang.String,boolean) -> getBoolean
@@ -82,6 +97,7 @@ com.safetyprotection.SpUtil.DelegateImp.SpUtilDelegateImpl -> com.safetyprotecti
     49:51:void putBoolean(android.content.Context,java.lang.String,boolean) -> putBoolean
     37:39:void putString(android.content.Context,java.lang.String,java.lang.String) -> putString
 com.safetyprotection.SpUtil.SpUtil -> com.safetyprotection.SpUtil.SpUtil:
+# {"id":"sourceFile","fileName":"SpUtil.java"}
     95:95:boolean getBoolean(android.content.Context,java.lang.String,boolean) -> getBoolean
     65:65:java.lang.String getString(android.content.Context,java.lang.String,java.lang.String) -> getString
     32:35:com.safetyprotection.SpUtil.Delegate.SpUtilDelegate getmSpUtilDelegate() -> getmSpUtilDelegate

@@ -16,7 +16,6 @@ com.safetyprotection.BaseActivity:
     private static final int RC_CAMERA_PERM
     private static final int RC_LOCATION_CONTACTS_PERM
     private static final int RC_LOCATION_PERM
-com.safetyprotection.BuildConfig
 com.safetyprotection.EasyPermissions.EasyPermissionsManage:
     private static final java.lang.String LOG_TAG
     public boolean hasSmsPermission(android.content.Context)
