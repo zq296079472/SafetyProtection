@@ -5,6 +5,25 @@ pluginManagement {
         gradlePluginPortal()
         maven { url "https://jitpack.io"  }
         jcenter()
+        maven { url 'https://jitpack.io' }
+//        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
+//        maven { url 'https://dl.bintray.com/umsdk/release' }
+        maven { url 'https://repo1.maven.org/maven2/' }
+
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+
+        maven {
+            url 'https://maven.aliyun.com/repository/public/'
+        }
+        mavenLocal()
+        mavenCentral()
+
+        maven { url "https://jitpack.io" }
     }
 }
 dependencyResolutionManagement {
@@ -14,6 +33,25 @@ dependencyResolutionManagement {
         mavenCentral()
         maven { url "https://jitpack.io"  }
         jcenter()
+        maven { url 'https://jitpack.io' }
+//        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
+//        maven { url 'https://dl.bintray.com/umsdk/release' }
+        maven { url 'https://repo1.maven.org/maven2/' }
+
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+
+        maven {
+            url 'https://maven.aliyun.com/repository/public/'
+        }
+        mavenLocal()
+        mavenCentral()
+
+        maven { url "https://jitpack.io" }
     }
 }
 
