@@ -14,9 +14,6 @@ dependencyResolutionManagement {
         maven { url "https://jitpack.io"  }
     }
 }
-dependencies {
-    implementation 'com.github.User:Repo:Version'
-}
 
 rootProject.name = "SafetyProtection"
 include(":app")
